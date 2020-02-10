@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: url(https://i.imgur.com/b9r5sEL.jpg) bottom center;
+  background: url("drums.jpg") bottom center;
   background-size: cover;
 }
 
@@ -10,10 +10,21 @@ body,html {
   font-family: sans-serif;
 }
 
+header,
+footer {
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}
+
+footer a {
+  color: #ffc600;
+}
+
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
+  min-height: 57vh;
   align-items: center;
   justify-content: center;
 }
